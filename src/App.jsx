@@ -50,7 +50,7 @@ function App() {
     <Router>
       <SlideBar contacts={contacts} />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="" element={<Home />} />
         <Route path="/drop" element={<Dropbox />} />
         <Route path="/food" element={<FoodForm />} />
         <Route path="/contacts" element={<ContactLists contacts={contacts} updateContact={openEditModal} updateCallback={onUpdate} />} />

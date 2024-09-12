@@ -6,32 +6,6 @@ import "./styles/dropbox.css";
 const Dropbox = () => {
   return (
     <div className="body">
-      {/* <div className="header">
-        <div className="left-section">
-          <div className="menu-sect">
-            <button className="menu-button">
-              <div className="menu-inside">
-                <div className="menu1"></div>
-                <div className="menu2"></div>
-                <div className="menu3"></div>
-              </div>
-            </button>
-          </div>
-          <div className="web-logo">
-            <img className="logo-picture" src="pic/logo.png" alt="Logo" />
-          </div>
-        </div>
-        <div className="middle-section">
-          <div style={{ display: "flex", flex: 1, alignItems: "center" }}>
-            <p className="web-name">Food Arrangement Service</p>
-          </div>
-        </div>
-        <div className="right-section">
-          <button className="setting-button">
-            <img className="setting" src="pic/setting-icon.png" alt="Settings" />
-          </button>
-        </div>
-      </div> */}
       <div className="content">
         <div className="box1">
           <p className="welcome">Let's get started</p>

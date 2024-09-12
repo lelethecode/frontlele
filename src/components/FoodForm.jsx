@@ -33,7 +33,7 @@ const FoodForm = ({updateCallback }) => {
             const data = await response.json()
             alert(data.message)
         } else {
-            updateCallback()
+            //updateCallback()
         }
     }
 
