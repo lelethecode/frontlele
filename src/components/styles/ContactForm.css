@@ -1,0 +1,17 @@
+.textbox{
+    background-color: rgba(255, 255, 255, 0.071);
+    border-radius: 7px;
+    width: 98.5%;
+    height: 50px;
+    border: 1px solid rgb(77, 77, 77);
+    font-size: 20px;
+}
+
+.boxtitle{
+    margin-top: 100%;
+}
+
+#submitbut{
+    margin-top: 100px;
+    width: 100%;
+}
